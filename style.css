@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Quango;
+    src: url(./assets/font/Quango.otf);
+}
+
+
+.navbar{
+    /* #008FD5; */
+    background-color: #024f75;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Readex Pro', sans-serif;
+    transition: all 1s ease-out;
+}
+
+.navbar a:hover{
+    color: rgb(41, 115, 226);
+
+}
+
+
+h1{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.bg a{
+    transition: all 1s ease-out;
+}
+
+.bg a:hover{
+    color: #024f75;
+    background-color: #fff;
+}
+
+.bg{
+    background: linear-gradient(0deg, rgba(2, 79, 117, 0.712) 18%, rgba(255, 255, 255, 0.705) 75%), url(./assets/images/doctor-1-1-1.png);
+    background-size: cover;
+    align-items: center;
+
+}
+
+.bg img{
+    transition: all 5s ease-out;
+}
+
+.bg a{
+    color: white;
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 10px 40px;
+    border-radius: 20px;
+    
+
+}
+
+.bg img{
+    padding: 20px;
+    border: 4px white solid;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.qui-sommes-nous{
+    background-color: white;
+    color: #024f75;
+    padding-top: 80px;
+}
+
+.qui-sommes-nous img{
+    border-radius: 20% 20% 50% 70%;
+    border: 4px #024f75 solid;
+    padding: 20px;
+    transition: all 5s ease-out;
+}
+
+.qui-sommes-nous a{
+    color: #024f75;
+    text-decoration: none;
+    border: 2px #024f75 solid;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+}
+
+.qui-sommes-nous a:hover{
+    color: white;
+    background-color: #024f75;
+}
+
+.separateur{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.226) 2%, rgba(2, 79, 117, 0.712) 90%), url(./assets/images/doctor-shape-9.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+    
+}
+
+.nous-services{
+    
+    background-color: #8acbec9d;
+
+    
+}
+
+.nous-services h2{
+    color: #024f75;
+    font-weight: bold;
+}
+
+.nous-services>div>div>div>div{
+    box-shadow: 1px 5px 15px #024f75;
+    border-radius: 30px;
+    background-color: white;
+    transition: all 1s ease-out;
+}
+
+.nous-services>div>div>div>div:hover{
+    border-radius: 30px;
+    border:4px #024f75 solid;
+    cursor: pointer;
+}
+
+.nous-services a{
+    color: #024f75;
+    text-decoration: none;
+    border: 2px #024f75 solid;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+}
+
+.nous-services a:hover{
+    
+    color: white;
+    background-color: #024f75;
+}
+
+.nous-services i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #024f75;
+}
+
+.nous-services h2{
+    font-size: 30px;
+}
+
+.nous-services h3{
+    font-size: 30px;
+    color: #024f75;
+}
+
+
+
+.nous-services p{
+    padding-top: 20px;
+    border-top: 3px #024f75 solid;
+    padding-bottom: 20px;
+}
+
+.client{
+    border:3px #024f75 solid ;
+    border-radius: 30px;
+
+}
+
+
+.carousel-item img{
+    border-radius: 50%;
+    margin-top: 20px !important;
+
+    width: 15%;
+}
+
+.temoignage .carousel-caption{
+    position: initial;
+    padding: 20px 0px 40px;
+
+}
+
+.temoignage h2{
+    color: #024f75;
+}
+
+
+.actualites{
+    background-color: #8acbec9d;
+   
+}
+
+.actualites img{
+    padding: 20px;
+    border: 4px #024f75 solid;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.actualites h2{
+    color: #024f75;
+    font-size: 60px;
+}
+
+.actualites p{
+   color: #024f75;
+   font-weight: bold;
+}
+
+
+.actualites a{
+    color: #024f75;
+    text-decoration: none;
+    border: 2px #024f75 solid;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+}
+
+.actualites a:hover{
+    color: white;
+    background-color: #024f75;
+}
+
+
+
+.reseaux a{
+    color: #024f75;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+
+footer{
+    background-color: #024f75;
+    color: white;
+}
+
+
